@@ -1,0 +1,36 @@
+/* AdmissionPanel.css */
+
+.admission-panel {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    color: #333;
+    font-weight: bold; /* Make Admission Panel bold */
+    font-size: 24px; /* Increase font size */
+}
+
+.admission-image {
+    width: 100%; /* Make image responsive */
+    max-width: 600px; /* Limit image width */
+    border: 2px solid #333; /* Add border to image */
+}
+
+.apply-button,
+.click-here-button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.click-here-button {
+    background-color: #ff9900;
+}
+
+@media (max-width: 768px) {
+    .admission-image {
+        max-width: 100%; /* Make image responsive */
+    }
+}

@@ -1,0 +1,49 @@
+/* dept.css */
+
+/* Main menu styling */
+.college-webpage {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.c1{
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu-container {
+  display: flex; /* Arrange menu items horizontally */
+  justify-content: space-around; /* Add space between menu items */
+}
+
+.menu-item {
+  margin: 0 10px; /* Add spacing around menu items */
+}
+
+.menu-option {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Submenu styling */
+.submenu {
+  display: flex; /* Arrange submenu horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.submenu li {
+  margin-right: 10px; /* Add spacing between submenu items */
+}
+
+.submenu a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+.submenu a:hover {
+  text-decoration: underline;
+}
